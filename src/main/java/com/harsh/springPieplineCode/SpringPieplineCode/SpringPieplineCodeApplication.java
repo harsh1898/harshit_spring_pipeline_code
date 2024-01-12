@@ -17,7 +17,7 @@ public class SpringPieplineCodeApplication {
 
 	@GetMapping("/read")
 	public  String readInfo(){
-		return ("Reading Springboot CI/CD Pipeline application.");
+		return ("Reading Springboot CI/CD Pipeline application");
 	}
 
 }
