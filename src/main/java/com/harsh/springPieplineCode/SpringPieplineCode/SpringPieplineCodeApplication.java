@@ -20,6 +20,8 @@ public class SpringPieplineCodeApplication {
 		return ("Reading Springboot CI/CD Pipeline application");
 	}
 	@GetMapping("/readData")
+	public  String readInfo(){
 	return("Reading another Springboot end point");
+	}
 
 }
